@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liuchuanzheng.trtclibrary" >
+
+    <application>
+        <activity android:name=".login.LoginActivity" />
+        <activity
+            android:name=".ui.TRTCVideoCallActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+</manifest>
